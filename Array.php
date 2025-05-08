@@ -37,6 +37,20 @@
         echo "<br>";
         echo $abc[$i]; // output: Array elements are: cold drink, Chocolate cake, pizza, pasta, burger, waffers, vanilla ice cream
     }
+    echo "<br>";
+    for ($i=0; $i<count($abc); $i++){
+        echo "<br>";
+        echo $abc[$i]; // output: Array elements are: cold drink, Chocolate cake, pizza, pasta, burger, waffers, vanilla ice cream
+    }
+    echo "<br>";
+    for ($j=0; $j<sizeof($abc); $j++){
+        echo "<br>";
+        echo $abc[$j]; // output: Array elements are: cold drink, Chocolate cake, pizza, pasta, burger, waffers, vanilla ice cream
+    }
+    echo "<br>";
+    echo "<br>";
+    echo "Total length of string in array is: ", strlen($abc[2]); // output: Total length of string in array is: 5
+    // strlen() used to find length of string in array
    ?>
 </body>
 </html>
