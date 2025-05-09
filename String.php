@@ -29,7 +29,25 @@
      echo "<br>";
      echo "string at index 2 is: ", substr($words, 2); //output: rings in PHP
      echo "<br>";
-     echo "search for string in string is: ", strpos($words, "S");
-    ?>
+     echo "search for string in string is: ", strpos($words, "in");
+     echo "<br>";
+     echo "search for string in string is: ", strpos($words, "PHP");
+     echo "<br>";
+     echo "search for string in string is: ", strpos($words, "Strings");
+     echo "<br>";
+     $app="An apple a day keeps doctor away";
+     echo "Replace string apple: ", str_replace("apple", "Kiwi", $app)."<br>";
+     echo "Search for string in string is: ", strpos($app, "doctor")."<br>";
+     echo $app."<br>";
+     echo "Reversed string is: ", strrev($app)."<br>";
+     echo "String in lowercase is: ", strtolower($app)."<br>";
+     echo "String in uppercase is: ", strtoupper($app)."<br>";
+     echo "Total number of words in string is: ", str_word_count($app)."<br>";
+     echo "Total length of string is: ", strlen($app)."<br>";
+     echo "Every first letter of each word in string is capital: ", ucwords($app)."<br>";
+     echo "All letters of string in lowercase: ",strtolower($app)."<br>";   
+
+     
+     ?>
 </body>
 </html
