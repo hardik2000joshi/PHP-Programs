@@ -44,13 +44,15 @@
      echo "String in uppercase is: ", strtoupper($app)."<br>";
      echo "Total number of words in string is: ", str_word_count($app)."<br>";
      echo "Total length of string is: ", strlen($app)."<br>";
-     echo "Every first letter of each word in string is capital: ", ucwords($app)."<br>";
-     echo "All letters of string in lowercase: ",strtolower($app)."<br>"."<br>";
+     echo "Every first letter of each word in string is capital: ", ucwords($app)."<br>"."<br>";
+     // echo "All letters of string in lowercase: ",strtolower($app)."<br>"."<br>";
      
      $p="plugins";
      echo $p."<br>"; // output: plugins
      echo "Reversed string is: ", strrev($p)."<br>";// output: snigulp
      echo var_dump($p)."<br>"; // output: string(7) "plugins"
+     echo "Replace string ins with out: ", str_replace("ins", "out", $p)."<br>"; // output: plugouts
+     echo "Count of (in) in string is: ", substr_count($p, "in")."<br>";
 
      
      ?>
