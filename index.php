@@ -14,6 +14,7 @@
     header('Cache-Control: post-check=0, pre-check=0', false); // additional cache-control directive
     header('Pragma: no-cache'); // pragma header, older way to prevent caching 
     header('Location: ../'); // Location header tells browser to navigate to new URL
+    exit; // to terminate current script
     ?>
 </body>
 </html>
